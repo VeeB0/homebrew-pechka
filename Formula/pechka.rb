@@ -12,23 +12,23 @@ class Pechka < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/VeeB0/pechka/releases/download/v0.9.0/pechka-aarch64-apple-darwin"
-      sha256 "f82da7d2f6175ba1b528116e9312c1434b453bcd63ca63e852c87d02dfbd20ab"
+      url "https://github.com/VeeB0/pechka/releases/download/v0.9.1/pechka-aarch64-apple-darwin"
+      sha256 "592166f84a8cc3c2f1c4b841cff626503ec2f4b95d5007677ceb20c5ece7db9f"
     end
     on_intel do
-      url "https://github.com/VeeB0/pechka/releases/download/v0.9.0/pechka-x86_64-apple-darwin"
-      sha256 "4b7d02192f7042f7f69a6c4c5cc888a1c4f28c2d92abf8a76f8bf1ecf374c95d"
+      url "https://github.com/VeeB0/pechka/releases/download/v0.9.1/pechka-x86_64-apple-darwin"
+      sha256 "92233f8f2d40299d792ff5a8ca3ca7559e251836c0bd890505ef7192286f5e92"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/VeeB0/pechka/releases/download/v0.9.0/pechka-aarch64-unknown-linux-musl"
-      sha256 "7c6275dcede0bcacc24190c3b8457752ceb7076d7861af23fc430dee96747664"
+      url "https://github.com/VeeB0/pechka/releases/download/v0.9.1/pechka-aarch64-unknown-linux-musl"
+      sha256 "5171e2328e7ee94ae441e6c82005709e6958e9d10230b6bd1e0c79729dc62dce"
     end
     on_intel do
-      url "https://github.com/VeeB0/pechka/releases/download/v0.9.0/pechka-x86_64-unknown-linux-musl"
-      sha256 "c604412726589ba28f730a5b0c92fa25f6fad3dea6827f85cc7bf69ed6850b7f"
+      url "https://github.com/VeeB0/pechka/releases/download/v0.9.1/pechka-x86_64-unknown-linux-musl"
+      sha256 "cfcb45b31227299d005e2f515cff0b3e5aaad8f9ed563335358131e2b9248a7b"
     end
   end
 
