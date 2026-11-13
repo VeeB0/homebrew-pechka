@@ -12,23 +12,23 @@ class Mctui < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/VeeB0/mctui/releases/download/v0.2.0/mctui-aarch64-apple-darwin"
-      sha256 "819174650a6f9b42f6406b96381fd3d6b14c6eab71d41427a2007cd2fbbaf62b"
+      url "https://github.com/VeeB0/mctui/releases/download/v0.3.0/mctui-aarch64-apple-darwin"
+      sha256 "43541678252384afe971fcee7d051462a71fb3fb6a6f3cff618a7faa4a5dcccf"
     end
     on_intel do
-      url "https://github.com/VeeB0/mctui/releases/download/v0.2.0/mctui-x86_64-apple-darwin"
-      sha256 "72cbc25878fd3294ad74e32e500e1bc66c82531a4773c92c32541b310f89fbbd"
+      url "https://github.com/VeeB0/mctui/releases/download/v0.3.0/mctui-x86_64-apple-darwin"
+      sha256 "fe5f30cdcab6254e32369f6f323cb6cbe23073be095a04c98e3e29cfdc790c8e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/VeeB0/mctui/releases/download/v0.2.0/mctui-aarch64-unknown-linux-musl"
-      sha256 "0f09323e7f9ed6840c18da99509624653f71805aaa47b40ed756ae1e211ef146"
+      url "https://github.com/VeeB0/mctui/releases/download/v0.3.0/mctui-aarch64-unknown-linux-musl"
+      sha256 "e3917a4421bd6e7d5397882737f77c5f778b950ab1995352c08bf5121945b3c0"
     end
     on_intel do
-      url "https://github.com/VeeB0/mctui/releases/download/v0.2.0/mctui-x86_64-unknown-linux-musl"
-      sha256 "4b71cc585dad6605a3636283f610d6bc2d67533970cbcfd91eba56801661e200"
+      url "https://github.com/VeeB0/mctui/releases/download/v0.3.0/mctui-x86_64-unknown-linux-musl"
+      sha256 "ba88ab06e5dc05df73a7854257e8874ad154789947c4f250bd1e1f137ca8fc14"
     end
   end
 
